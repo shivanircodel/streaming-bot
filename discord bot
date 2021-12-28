@@ -1,0 +1,71 @@
+// authenticates you with the API standard library
+// type `await lib.` to display API autocomplete
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+await lib.discord.channels['@0.2.0'].messages.create({
+  channel_id: context.params.event.channel_id,
+  content: `Pong!`
+});
+
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+await lib.discord.commands['@0.0.0'].create({
+  "guild_id": "924323804799467571",
+  "name": "netflix",
+  "description": "Let me play Netflix for you",
+  "options": []
+});
+
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+await lib.discord.commands['@0.0.0'].create({
+  "guild_id": "924323804799467571",
+  "name": "hulu",
+  "description": "Let me play hulu for you",
+  "options": []
+});
+
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+await lib.discord.commands['@0.0.0'].create({
+  "guild_id": "924323804799467571",
+  "name": "disney",
+  "description": "Let me play disney + for you",
+  "options": []
+});
+
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+await lib.discord.commands['@0.0.0'].create({
+  "guild_id": "924323804799467571",
+  "name": "youtube",
+  "description": "Let me play YouTube for you",
+  "options": []
+});
+
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+await lib.discord.commands['@0.0.0'].create({
+  "guild_id": "924323804799467571",
+  "name": "prime",
+  "description": "Let me play Amazon Prime for you",
+  "options": []
+});
+
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+await lib.discord.commands['@0.0.0'].create({
+  "guild_id": "924323804799467571",
+  "name": "hbo",
+  "description": "Let me play HBO for you",
+  "options": []
+});
+
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+await lib.discord.commands['@0.0.0'].create({
+  "guild_id": "924323804799467571",
+  "name": "spotify",
+  "description": "Let me play spotify music for you",
+  "options": []
+});
